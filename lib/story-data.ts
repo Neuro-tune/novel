@@ -38,7 +38,7 @@ export const storyData: Scene[] = [
   // SCENE 0: WAKE UP
   {
     id: "wakeup",
-    background: "/scene_0_wakeup.png",
+    background: "/scene_0_wakeup.webp",
     music: "/sad_piano.mp3",
     volume: 0.2,
     character: null,
@@ -50,7 +50,7 @@ export const storyData: Scene[] = [
   // SCENE 1: THE BLANKET 
   {
     id: "blanket_fort",
-    background: "/scene_1_bed.png",
+    background: "/scene_1_bed.webp",
     music: "/sad_piano.mp3",
     volume: 0.2,
     character: null,
@@ -62,7 +62,7 @@ export const storyData: Scene[] = [
   // SCENE 2: THE CALL
   {
     id: "intro_call",
-    background: "/scene_2_bed.png",
+    background: "/scene_2_bed.webp",
     music: "/sad_piano.mp3",
     volume: 0.2,
     character: null,
@@ -77,7 +77,7 @@ export const storyData: Scene[] = [
   // SCENE 3: PRODUCER 
   {
     id: "meet_producer",
-    background: "/scene_2_bed.png",
+    background: "/scene_2_bed.webp",
     music: "/sad_piano.mp3",
     volume: 0.2,
     character: null,
@@ -88,7 +88,7 @@ export const storyData: Scene[] = [
 
   {
     id: "meet_producer_force",
-    background: "/scene_2_bed.png",
+    background: "/scene_2_bed.webp",
     music: "/sad_piano.mp3",
     volume: 0.2,
     character: null,
@@ -100,7 +100,7 @@ export const storyData: Scene[] = [
   // SCENE 3.5: MAGIC EXPLANATION 
   {
     id: "magic_explanation",
-    background: "/scene_2_bed.png",
+    background: "/scene_2_bed.webp",
     music: "/sad_piano.mp3",
     volume: 0.2,
     character: null,
@@ -112,7 +112,7 @@ export const storyData: Scene[] = [
   // SCENE 4: WARDROBE CHOICE (Выбор Сказки)
   {
     id: "wardrobe_choice",
-    background: "/scene_2_wardrobe_options.png",
+    background: "/scene_2_wardrobe_options.webp",
     music: "/magic.mp3",
     volume: 0.2,
     character: null,
@@ -128,7 +128,7 @@ export const storyData: Scene[] = [
   // SCENE 5: WARDROBE REVEAL (Part 1)
   {
     id: "wardrobe_reveal_1",
-    background: "/scene_2_wardrobe_enter.png",
+    background: "/scene_2_wardrobe_enter.webp",
     music: "/magic.mp3",
     volume: 0.2,
     character: null,
@@ -151,7 +151,7 @@ export const storyData: Scene[] = [
   // SCENE 5: WARDROBE REVEAL (Part 2)
   {
     id: "wardrobe_reveal_2",
-    background: "/scene_2_wardrobe_enter.png",
+    background: "/scene_2_wardrobe_enter.webp",
     music: "/magic.mp3",
     volume: 0.2,
     character: null,
@@ -174,7 +174,7 @@ export const storyData: Scene[] = [
   // SCENE 6: INTERNAL SHADOW
   {
     id: "battle_start",
-    background: "/scene_battle.png",
+    background: "/scene_battle.webp",
     music: null,
     character: null,
     speaker: "Тень Сомнений",
@@ -185,7 +185,7 @@ export const storyData: Scene[] = [
   // SCENE 7: RESOLUTION CHOICE (Branching)
   {
     id: "battle_hesitation",
-    background: "/scene_battle.png",
+    background: "/scene_battle.webp",
     music: null,
     character: null,
     speaker: "Тень Сомнений",
@@ -199,7 +199,7 @@ export const storyData: Scene[] = [
   // --- ВЕТКА А: ПУТЬ СИЛЫ (Она сама справляется) ---
   {
     id: "scene_7a_strength",
-    background: "/scene_battle.png",
+    background: "/scene_battle.webp",
     music: null,
     character: null,
     speaker: "Героиня",
@@ -211,7 +211,7 @@ export const storyData: Scene[] = [
   // --- ВЕТКА Б: ПУТЬ ПОДДЕРЖКИ (Мы помогаем) ---
   {
     id: "scene_7b_support",
-    background: "/scene_battle.png",
+    background: "/scene_battle.webp",
     music: null,
     character: null,
     speaker: "Продюсер",
@@ -222,7 +222,7 @@ export const storyData: Scene[] = [
   // --- ТОЧКА СХОДА: ЗАКУЛИСЬЕ (Часть 1: Динамический текст) ---
   {
     id: "scene_8_backstage_1",
-    background: "/scene_backstage.png",
+    background: "/scene_backstage.webp",
     music: null,
     character: null,
     speaker: "Продюсер",
@@ -238,7 +238,7 @@ export const storyData: Scene[] = [
   // --- ТОЧКА СХОДА: ЗАКУЛИСЬЕ (Часть 2: Настоящее сокровище) ---
   {
     id: "scene_8_backstage_2",
-    background: "/scene_backstage.png",
+    background: "/scene_backstage.webp",
     music: null,
     character: null,
     speaker: "Продюсер",
@@ -249,7 +249,7 @@ export const storyData: Scene[] = [
   // --- ТОЧКА СХОДА: ЗАКУЛИСЬЕ (Часть 3: Финальный вопрос) ---
   {
     id: "scene_8_backstage_3",
-    background: "/scene_backstage.png",
+    background: "/scene_backstage.webp",
     music: null,
     character: null,
     speaker: "Продюсер",
@@ -260,7 +260,7 @@ export const storyData: Scene[] = [
   // --- ФИНАЛ: ЗАЛ ДРУЗЕЙ ---
   {
     id: "finale",
-    background: "/scene_finale_pov.png",
+    background: "/scene_finale_pov.webp",
     music: "/happy.mp3",
     loop: false,
     character: null,
@@ -272,7 +272,7 @@ export const storyData: Scene[] = [
   // --- ТИТРЫ / КОНЕЦ ---
   {
     id: "credits",
-    background: "/scene_finale_pov.png",
+    background: "/scene_finale_pov.webp",
     music: "/finale.mp3",
     character: null,
     speaker: "Друг",
@@ -288,7 +288,7 @@ export function getSceneById(id: string): Scene | undefined {
 // Helper to get dynamic character image based on outfit
 export function getOutfitImage(outfit: OutfitType): string | null {
   if (!outfit) return null
-  return `/characters/outfit_${outfit}.png`
+  return `/characters/outfit_${outfit}.webp`
 }
 
 // Helper to get dynamic text based on outfit
